@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Ativa.ai</title>
+
+  <style>
+    :root {
+      --primary: #0b5cff;
+      --dark: #0f172a;
+      --light: #f8fafc;
+      --gray: #64748b;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0b5cff, #1e40af);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .language-switch {
+      text-align: right;
+      margin-bottom: 20px;
+    }
+
+    .language-switch button {
+      background: transparent;
+      border: 1px solid var(--gray);
+      color: var(--gray);
+      padding: 6px 12px;
+      margin-left: 6px;
+      cursor: pointer;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+
+    .language-switch button.active,
+    .language-switch button:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    section {
+      display: none;
+      background: white;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+
+    section.active {
+      display: block;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.85rem;
+      color: var(--gray);
+    }
+
+    footer span {
+      color: var(--primary);
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>Ativa.ai – Transparency, security and trust</p>
+  </header>
+
+  <div class="container">
+
+    <div class="language-switch">
+      <button onclick="setLang('pt')" class="active" id="btn-pt">PT</button>
+      <button onclick="setLang('en')" id="btn-en">EN</button>
+      <button onclick="setLang('es')" id="btn-es">ES</button>
+    </div>
+
+    <!-- PT -->
+    <section id="pt" class="active">
+      <h2>Política de Privacidade – Ativa.ai</h2>
+
+      <p>
+        Esta extensão foi desenvolvida pela <strong>Ativa.ai</strong> com o objetivo de auxiliar usuários
+        na criação de respostas e textos dentro do ambiente do Gmail.
+      </p>
+
+      <p>
+        A extensão <strong>não coleta, armazena ou compartilha dados pessoais</strong> dos usuários.
+      </p>
+
+      <p>
+        Todas as interações ocorrem exclusivamente quando o usuário aciona a extensão manualmente.
+        Os dados inseridos são utilizados apenas para gerar conteúdo solicitado pelo próprio usuário.
+      </p>
+
+      <p>
+        Nenhuma informação é armazenada em servidores próprios.
+        Nenhum dado é vendido, transferido ou compartilhado com terceiros.
+      </p>
+
+      <p>
+        Serviços externos podem ser utilizados apenas para processamento da solicitação,
+        sem retenção ou reutilização das informações.
+      </p>
+
+      <p>
+        Em caso de dúvidas, entre em contato pelo e-mail:
+        <strong>marketing.ativaai@gmail.com</strong>
+      </p>
+    </section>
+
+    <!-- EN -->
+    <section id="en">
+      <h2>Privacy Policy – Ativa.ai</h2>
+
+      <p>
+        This extension was developed by <strong>Ativa.ai</strong> to assist users
+        in creating responses and content within the Gmail environment.
+      </p>
+
+      <p>
+        The extension <strong>does not collect, store, or share personal data</strong>.
+      </p>
+
+      <p>
+        All interactions occur only when the user manually activates the extension.
+        Any input is used solely to generate the content requested by the user.
+      </p>
+
+      <p>
+        No data is stored on proprietary servers.
+        No information is sold, transferred, or shared with third parties.
+      </p>
+
+      <p>
+        External services may be used strictly to process user requests,
+        without data retention.
+      </p>
+
+      <p>
+        For questions, contact:
+        <strong>marketing.ativaai@gmail.com</strong>
+      </p>
+    </section>
+
+    <!-- ES -->
+    <section id="es">
+      <h2>Política de Privacidad – Ativa.ai</h2>
+
+      <p>
+        Esta extensión fue desarrollada por <strong>Ativa.ai</strong> para ayudar a los usuarios
+        a crear respuestas y contenidos dentro del entorno de Gmail.
+      </p>
+
+      <p>
+        La extensión <strong>no recopila, almacena ni comparte datos personales</strong>.
+      </p>
+
+      <p>
+        Todas las interacciones ocurren únicamente cuando el usuario activa la extensión manualmente.
+        La información ingresada se utiliza solo para generar el contenido solicitado.
+      </p>
+
+      <p>
+        No se almacenan datos en servidores propios.
+        Ninguna información es vendida, transferida o compartida con terceros.
+      </p>
+
+      <p>
+        Servicios externos pueden utilizarse únicamente para procesar la solicitud,
+        sin retención de datos.
+      </p>
+
+      <p>
+        Para dudas, contacte:
+        <strong>marketing.ativaai@gmail.com</strong>
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    © <span>Ativa.ai</span> — Privacy & Compliance
+  </footer>
+
+  <script>
+    function setLang(lang) {
+      ['pt', 'en', 'es'].forEach(l => {
+        document.getElementById(l).classList.remove('active');
+        document.getElementById('btn-' + l).classList.remove('active');
+      });
+
+      document.getElementById(lang).classList.add('active');
+      document.getElementById('btn-' + lang).classList.add('active');
+
+      document.documentElement.lang = lang;
+    }
+  </script>
+
+</body>
+</ht
